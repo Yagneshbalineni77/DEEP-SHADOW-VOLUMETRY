@@ -10,7 +10,7 @@ The model was trained on a custom synthetic dataset generated in Blender:
 ### 📊 Model Performance
 - **Backbone:** EfficientNet-B0 (Transfer Learning)
 - **Input:** 224x224 Grayscale Image + Solar Elevation Angle
-- **Training:** 18 Epochs (Early Stopping triggered)
+- **Training:** 30 Epochs (Early Stopping triggered)
 - **Mean Error:** ~1.6% to 2.0% on unseen test data
 
 ### 🛠️ Project Structure
