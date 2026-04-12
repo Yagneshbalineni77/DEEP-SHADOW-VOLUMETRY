@@ -12,7 +12,7 @@ st.set_page_config(page_title="Deep Shadow OSINT", page_icon="🛰️", layout="
 @st.cache_resource
 def load_ai_model():
     model = DeepShadowModel()
-    model.load_state_dict(torch.load('transfer_learned_weights.pth', map_location='cpu'))
+    model.load_state_dict(torch.load('best_deep_shadow_weights.pth', map_location='cpu'))
     model.eval()
     return model
 
